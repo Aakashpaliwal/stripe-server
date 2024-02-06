@@ -20,7 +20,8 @@ app.use(cors())
 
 const PORT = 5000
 
-const YOUR_DOMAIN = 'http://localhost:3000';
+// const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://dev-app.chroniclecloud.com';
 
 app.get('/home', (req, res) => {
   res.status(200).json('Welcome, your app is working well');
